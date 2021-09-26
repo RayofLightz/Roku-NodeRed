@@ -1,0 +1,28 @@
+{
+  "name": "roku-nodered",
+  "version": "1.0.0",
+  "description": "Roku support for node red",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayofLightz/Roku-NodeRed.git"
+  },
+  "author": "Tristan Messner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RayofLightz/Roku-NodeRed/issues"
+  },
+  "homepage": "https://github.com/RayofLightz/Roku-NodeRed#readme",
+  "node-red": {
+    "nodes": {
+      "roku-keypress": "src/roku-keypress.js",
+      "roku-config": "src/roku-config.js"
+    }
+  },
+  "dependencies": {
+    "superagent": "^6.1.0"
+  }
+}

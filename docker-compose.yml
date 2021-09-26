@@ -1,0 +1,7 @@
+services:
+  nodered:
+    image: "rokuredtesting"
+    ports:
+      - "1880:1880"
+    volumes:
+      - ".:/data"
